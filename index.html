@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="parent">
+        <div class="side">
+            <div class="figure">
+                <img class="logo" src="./247062980_1745548565640505_5758668658066402269_n-removebg-preview.png" alt="">
+            </div>
+            <h1>CRIME CHECK</h1>
+            <h1>PORTAL</h1>
+        </div>
+        <div class="inputs">
+            <form action="">
+                <input id="criminalName" type="text" placeholder="Name" required>
+                <input id="criminalNumber" required type="number" placeholder="Ghana Card Number (XXX-XXX-XXX) ">
+                <button id="btn">Check</button>
+            </form>
+            <div id="result"></div> <!-- Add this div for displaying results -->
+
+        </div>
+    </div>
 </body>
+<script src="app.js"></script>
 </html>
